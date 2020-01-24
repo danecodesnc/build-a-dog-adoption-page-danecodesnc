@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "open sans", sans-serif;
+}
+
+.h1title {
+    color: white;
+    background-color: #0D3E75;
+    padding: 3rem;
+}
+
+.fill-form {
+    padding: 2rem;
+}
+
+.main {
+    display: flex;
+}
+
+.dog-descriptions {
+    display: inline-block;
+}
+
+.dog-descriptions img {
+    width: 200px
+}
+
+.h2title {
+    padding: 3rem;
+}
+
+
+/* .cell-container {
+    margin: 3rem;
+} */
+
+li {
+    display: inline-block;
+    margin: right;
+    padding: 1rem;
+}
