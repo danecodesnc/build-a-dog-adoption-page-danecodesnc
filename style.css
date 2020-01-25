@@ -1,5 +1,5 @@
             * {
-                /* display: inline-grid; */
+                display: center;
                 box-sizing: border-box;
                 margin: 0;
                 padding: 0;
@@ -9,8 +9,9 @@
             .mainheadertitle {
                 color: white;
                 background-color: #0D3E75;
-                padding: 2rem;
-                margin: left;
+                padding: 1.5rem;
+                margin: center;
+                width: 100%;
             }
             
             .blueline {
@@ -53,7 +54,7 @@
             }
             
             .dog-pictures {
-                max-width: 300px;
+                max-width: 425px;
             }
             
             .dog-descriptions {
@@ -61,23 +62,25 @@
                 padding-bottom: 1rem;
             }
             
-            .container-bottom {
+            .bottom-container {
                 display: flex;
-            }
-            
-            .donate {
-                background: linear-gradient(rgba(150, 146, 239, 0.5), rgba(150, 146, 239, 0.6)), url(starter_files/images/donate.jpg) center/cover;
-            }
-            
-            .volunteer {
-                background: linear-gradient(rgba(150, 146, 239, 0.2), rgba(150, 146, 239, 0.6)), url(starter_files/images/volunteer.jpg) center/cover;
-            }
-            
-            .our-location {
-                background: linear-gradient(rgba(150, 146, 239, 0.2), rgba(150, 146, 239, 0.6)), url(starter_files/images/location.png) center/cover;
+                color: white;
+                text-align: center;
             }
             
             .bottom {
-                width: 33%;
-                height: 300px;
+                width: 40%;
+                height: 275px;
+            }
+            
+            .donate {
+                background: linear-gradient(rgba(117, 111, 235, 0.5), rgba(117, 111, 235, 0.5)), url(starter_files/images/donate.jpg) center/cover;
+            }
+            
+            .volunteer {
+                background: linear-gradient(rgba(117, 111, 235, 0.5), rgba(117, 111, 235, 0.5)), url(starter_files/images/volunteer.jpg) center/cover;
+            }
+            
+            .our-location {
+                background: linear-gradient(rgba(117, 111, 235, 0.5), rgba(117, 111, 235, 0.5)), url(starter_files/images/location.png) center/cover;
             }
