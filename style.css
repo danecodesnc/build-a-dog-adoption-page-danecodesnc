@@ -1,4 +1,5 @@
             * {
+                /* display: inline-grid; */
                 box-sizing: border-box;
                 margin: 0;
                 padding: 0;
@@ -29,6 +30,7 @@
             
             .container {
                 display: flex;
+                justify-content: center;
                 flex-wrap: wrap;
                 margin: 0.2rem;
                 justify-content: space-evenly;
