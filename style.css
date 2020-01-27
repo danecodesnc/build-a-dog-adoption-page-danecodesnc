@@ -9,7 +9,8 @@
             .mainheadertitle {
                 color: white;
                 background-color: #0D3E75;
-                padding: 1.5rem;
+                padding: 1rem;
+                padding-left: 3.5rem;
                 margin: center;
                 width: 100%;
             }
@@ -22,11 +23,13 @@
             
             .nextheadertitle {
                 padding: 1rem;
+                padding-left: 3.5rem;
                 margin: left;
             }
             
             .fillform {
                 padding: 1rem;
+                padding-left: 3.5rem;
             }
             
             .container {
@@ -68,6 +71,9 @@
             }
             
             .bottom {
+                display: flex;
+                align-items: center;
+                justify-content: center;
                 width: 40%;
                 height: 275px;
             }
@@ -75,15 +81,12 @@
             .donate {
                 background: linear-gradient(rgba(117, 111, 235, 0.5), rgba(117, 111, 235, 0.5)), url(starter_files/images/donate.jpg) center/cover;
                 margin: 0;
-                text-align: center;
             }
             
             .volunteer {
                 background: linear-gradient(rgba(117, 111, 235, 0.5), rgba(117, 111, 235, 0.5)), url(starter_files/images/volunteer.jpg) center/cover;
-                text-align: center;
             }
             
             .our-location {
                 background: linear-gradient(rgba(117, 111, 235, 0.5), rgba(117, 111, 235, 0.5)), url(starter_files/images/location.png) center/cover;
-                text-align: center;
             }
